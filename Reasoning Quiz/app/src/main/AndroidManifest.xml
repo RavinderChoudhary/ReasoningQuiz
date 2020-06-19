@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Persistance_Object.MyFirebaseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logic2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_SignUp"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_Login"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity_Levels1" />
+        <activity android:name=".Main2ActivitySec1" />
+        <activity android:name=".Main2ActivitySec2" />
+        <activity android:name=".WrongQuestion" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Activity_Levels2" />
+        <activity android:name=".Activity_Levels3" />
+        <activity android:name=".Main2ActivitySec3" />
+        <activity android:name=".Info" />
+        <activity android:name=".Main2ActivityFinal" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel1" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel2" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel3" />
+        <activity android:name=".LocalScoreBoard.ScoreLevelFinal" />
+        <activity android:name=".LeaderBoard.LeaderLevel1" />
+        <activity android:name=".LeaderBoard.LeaderLevel2" />
+        <activity android:name=".LeaderBoard.LeaderLevel3" />
+        <activity android:name=".LeaderBoard.Finale.LeaderBoardAcSecF" />
+        <activity android:name=".LeaderBoard.LeaderLevel12"></activity>
+        <activity android:name=".LeaderBoard.LeaderLevel11" />
+        <activity android:name=".LeaderBoard.LeaderLevel10" />
+        <activity android:name=".LeaderBoard.LeaderLevel9" />
+        <activity android:name=".LeaderBoard.LeaderLevel8" />
+        <activity android:name=".LeaderBoard.Verification_of_Truth.LeaderBoard_VT_I" />
+        <activity android:name=".LeaderBoard.Verification_of_Truth.LeaderBoard_VT_E" />
+        <activity android:name=".LeaderBoard.Verification_of_Truth.LeaderBoard_VT_B" />
+        <activity android:name=".LeaderBoard.Situation_Reaction_Test.LeaderBoard_SRT_I" />
+        <activity android:name=".LeaderBoard.Situation_Reaction_Test.LeaderBoard_SRT_E" />
+        <activity android:name=".LeaderBoard.Situation_Reaction_Test.LeaderBoard_SRT_B" />
+        <activity android:name=".LeaderBoard.Number_Analogies.LeaderBoard_NA_I" />
+        <activity android:name=".LeaderBoard.Number_Analogies.LeaderBoard_NA_E" />
+        <activity android:name=".LeaderBoard.Number_Analogies.LeaderBoard_NA_B" />
+        <activity android:name=".LeaderBoard.Essential_Part.LeaderBoard_EP_I" />
+        <activity android:name=".LeaderBoard.Essential_Part.LeaderBoard_EP_E" />
+        <activity android:name=".LeaderBoard.Essential_Part.LeaderBoard_EP_B" />
+        <activity android:name=".LeaderBoard.Classification.LeaderBoard_C_I" />
+        <activity android:name=".LeaderBoard.Classification.LeaderBoard_C_E" />
+        <activity android:name=".LeaderBoard.Classification.LeaderBoard_C_B" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel12" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel11" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel10" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel9" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel8" />
+        <activity android:name=".Main2ActivitySec12" />
+        <activity android:name=".Main2ActivitySec11" />
+        <activity android:name=".Main2ActivitySec10" />
+        <activity android:name=".Main2ActivitySec9" />
+        <activity android:name=".Main2ActivitySec8" />
+        <activity android:name=".Activity_Levels12" />
+        <activity android:name=".Activity_Levels11" />
+        <activity android:name=".Activity_Levels10" />
+        <activity android:name=".Activity_Levels9" />
+        <activity android:name=".Activity_Levels8" />
+        <activity android:name=".LeaderBoard.Number_Series.LeaderBoard_NS_I" />
+        <activity android:name=".LeaderBoard.Number_Series.LeaderBoard_NS_E" />
+        <activity android:name=".LeaderBoard.Number_Series.LeaderBoard_NS_B" />
+        <activity android:name=".LeaderBoard.Logical_Sequence.LeaderBoard_LS_I" />
+        <activity android:name=".LeaderBoard.Logical_Sequence.LeaderBoard_LS_E" />
+        <activity android:name=".LeaderBoard.Logical_Sequence.LeaderBoard_LS_B" />
+        <activity android:name=".LeaderBoard.Alphabet_Test.LeaderBoard_AT_I" />
+        <activity android:name=".LeaderBoard.Alphabet_Test.LeaderBoard_AT_E" />
+        <activity android:name=".LeaderBoard.Alphabet_Test.LeaderBoard_AT_B" />
+        <activity android:name=".LeaderBoard.LeaderLevel7" />
+        <activity android:name=".LeaderBoard.LeaderLevel6" />
+        <activity android:name=".LeaderBoard.LeaderLevel5" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel7" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel6" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel5" />
+        <activity android:name=".Main2ActivitySec7" />
+        <activity android:name=".Main2ActivitySec6" />
+        <activity android:name=".Main2ActivitySec5" />
+        <activity android:name=".Activity_Levels7" />
+        <activity android:name=".Activity_Levels6" />
+        <activity android:name=".Activity_Levels5" />
+        <activity android:name=".LeaderBoard.LeaderLevel4" />
+        <activity android:name=".LeaderBoard.Analogy.LeaderBoard_A_I" />
+        <activity android:name=".LeaderBoard.Analogy.LeaderBoard_A_E" />
+        <activity android:name=".LeaderBoard.Analogy.LeaderBoard_A_B" />
+        <activity android:name=".LocalScoreBoard.ScoreLevel4" />
+        <activity android:name=".Model.QuestionAnalogy" />
+        <activity android:name=".Main2ActivitySec4" />
+        <activity android:name=".Activity_Levels4" />
+        <activity android:name=".LeaderBoard.Direction_Sense.LeaderBoard_DS_I" />
+        <activity android:name=".LeaderBoard.Direction_Sense.LeaderBoard_DS_E" />
+        <activity android:name=".LeaderBoard.Direction_Sense.LeaderBoard_DS_B" />
+        <activity android:name=".LeaderBoard.Coding_Decoding.LeaderBoard_CD_I" />
+        <activity android:name=".LeaderBoard.Coding_Decoding.LeaderBoard_CD_E" />
+        <activity android:name=".LeaderBoard.Coding_Decoding.LeaderBoard_CD_B" />
+        <activity android:name=".LeaderBoard.Blood_Relations.LeaderBoard_BR_E" />
+        <activity android:name=".LeaderBoard.Blood_Relations.LeaderBoard_BR_I" />
+        <activity android:name=".LeaderBoard.Blood_Relations.LeaderBoard_BR_B" />
+    </application>
+
+</manifest>

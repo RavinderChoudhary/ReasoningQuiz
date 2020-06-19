@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "296964429703",
+    "firebase_url": "https://reasoning-quiz-58476.firebaseio.com",
+    "project_id": "reasoning-quiz-58476",
+    "storage_bucket": "reasoning-quiz-58476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296964429703:android:980d516714336f2c676522",
+        "android_client_info": {
+          "package_name": "com.example.hp.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296964429703-5cja4tjpuse34i520g7qudqjlon7v41d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.demo",
+            "certificate_hash": "a65fd790a69e94cfd7ef11e41ea52e103968ee2d"
+          }
+        },
+        {
+          "client_id": "296964429703-dbbibgldn7tirv3npgi77mjlrnno4s8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDho5pzbQ0oN_7v_GYKVWWMGitcmDypXCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "296964429703-dbbibgldn7tirv3npgi77mjlrnno4s8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

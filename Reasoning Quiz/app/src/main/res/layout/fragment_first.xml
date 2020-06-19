@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:id="@+id/scroll"
+    android:isScrollContainer="false"
+    android:layout_gravity="end"
+    tools:context=".First"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="754dp"
+        android:id="@+id/rel"
+
+        >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+
+        android:id="@+id/imgview1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="0dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview1"
+        android:layout_marginTop="30dp"
+        android:text="         1. Blood Relations"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview1"
+        />
+
+    <!--2-->
+    <ImageView
+        android:id="@+id/imgview2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/color"
+        android:layout_below="@+id/imgview1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview2"
+        android:layout_marginTop="30dp"
+        android:text="         2. Coding - Decoding"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview2"
+        />
+
+    <!--3-->
+    <ImageView
+        android:id="@+id/imgview3"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview2"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview3"
+        android:layout_marginTop="30dp"
+        android:text="         3. Direction Sense Test"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview3"
+        />
+
+    <!--4-->
+    <ImageView
+        android:id="@+id/imgview4"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview4"
+        android:layout_marginTop="30dp"
+        android:text="         4. Analogy"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview4"
+        />
+    <!--5-->
+    <ImageView
+        android:id="@+id/imgview5"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview4"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview5"
+        android:layout_marginTop="30dp"
+        android:text="         5. Alphabet Test"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview5"
+        />
+
+    <!--6-->
+    <ImageView
+        android:id="@+id/imgview6"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview5"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview6"
+        android:layout_marginTop="30dp"
+        android:text="         6. Number Series"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview6"
+        />
+
+    <!--7-->
+    <ImageView
+        android:id="@+id/imgview7"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview7"
+        android:layout_marginTop="30dp"
+        android:text="         7. Logical Sequence"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview7"
+        />
+
+    <!--8-->
+    <ImageView
+        android:id="@+id/imgview8"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/color"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/imgview7"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgview8"
+        android:layout_marginTop="30dp"
+        android:text="         8. Number Analogies"
+        android:textSize="20dp"
+        android:textColor="#003366"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:layout_below="@+id/imgview8"
+        />
+
+        <!--9-->
+        <ImageView
+            android:id="@+id/imgview9"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/color"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/imgview8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgview9"
+            android:layout_marginTop="30dp"
+            android:text="         9. Situation Reaction Test"
+            android:textSize="20dp"
+            android:textColor="#003366"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_below="@+id/imgview9"
+            />
+
+        <!--10-->
+        <ImageView
+            android:id="@+id/imgview10"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/color"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/imgview9"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgview10"
+            android:layout_marginTop="30dp"
+            android:text="         10. Verification of Truth"
+            android:textSize="20dp"
+            android:textColor="#003366"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_below="@+id/imgview10"
+            />
+
+        <!--11-->
+        <ImageView
+            android:id="@+id/imgview11"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/color"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/imgview10"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgview11"
+            android:layout_marginTop="30dp"
+            android:text="         11. Classification"
+            android:textSize="20dp"
+            android:textColor="#003366"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_below="@+id/imgview11"
+            />
+
+        <!--12-->
+        <ImageView
+            android:id="@+id/imgview12"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/color"
+            android:paddingTop="5dp"
+            android:layout_below="@+id/imgview11"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imgview12"
+            android:layout_marginTop="30dp"
+            android:text="         12. Essential Part"
+            android:textSize="20dp"
+            android:textColor="#003366"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            android:layout_below="@+id/imgview12"
+            />
+    </RelativeLayout>
+</ScrollView>
